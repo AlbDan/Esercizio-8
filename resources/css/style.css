@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+
+body {
+    background-color: #454545;
+    color: #fff;
+}
+
+.bg-202020 {
+    background-color: #202020;
+}
+
+.f-kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.f-right {
+    font-family: 'Righteous', cursive;
+}
+
+.welcome-header {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-msg {
+    color: #000;
+    font-family: 'Righteous', cursive;
+    text-shadow: #fff 0 0 10px;
+}
+
+.regWrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regWrapperForm, .myprofile-wrapper {
+    margin: 60px 0px;
+    width: 600px;
+    background-color: #202020;
+    color: #ffc107;
+    border-radius: 6px;
+}
+
+.regWrapperForm {
+    padding: 30px 50px;
+}
+
+.myprofile-wrapper {
+    padding: 50px 50px;
+}
+
+.articleWrapper {
+    padding: 50px 50px;
+    width: 100%;
+    background-color: #202020;
+    color: #ffc107;
+    border-radius: 6px;
+}
+
+.btn-cst {
+    all: unset;
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    transition: .4s;
+}
+
+.btn-cst:hover {
+    background-color: #ffc107;
+    color: #202020;
+}
+
+.list-cst {
+    color: #ffc107 !important;
+    background-color: #202020;
+    transition: .2s;
+}
+
+.list-cst:hover {
+    background-color: #202020;
+    color: #fff707 !important;
+}
+
+.inputarea-cst {
+    border-radius: 6px;
+}
+
+.inputarea-cst:focus {
+    outline: solid #ffc107;
+    outline-width: 1px;
+}
+
+.title-cst {
+    width: 300px;
+}
+
+.txt-a-cst-inv {
+    outline: solid #dc3545;
+    outline-width: 1px;
+}
+
+.by-cst {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.by-cst:hover {
+    text-decoration: underline;
+}
+
+.articlelink-cst {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.articlelink-cst:hover {
+    color: #fff707;
+}
+
+.taglink-cst {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.taglink-cst:hover {
+    color: #fff707;
+}
+
+.btn-cst-ins {
+    background-color: #202020;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 6px;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    transition: .2s;
+}
+
+.btn-cst-ins:hover {
+    background-color: green;
+    border-color: green;
+    color: #fff;
+
+}
+
+.tag-card-cst {
+    background-color: #202020;
+    border-radius: 6px;
+    margin: 6px 0px;
+    padding: 20px 0px;
+}
+
+
+
+
+
